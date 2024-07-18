@@ -11,3 +11,8 @@
 
 #!.yarn/cache
 .pnp.*
+
+# When using node modules instead of yarn pnp (pnp is the default for new 
+# versions of yarn)
+node_modules
+

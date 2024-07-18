@@ -1,6 +1,11 @@
 {
   "name": "saol",
+  "description": "Svenska Akademins Ordlista",
+  "author": "Otto Lindfors",
+  "version": "1",
+  "license": "GPL-3.0-or-later",
   "packageManager": "yarn@4.2.2",
+  "type": "module",
   "main": "dist/main.js",
   "scripts": {
     "start": "electron ."
