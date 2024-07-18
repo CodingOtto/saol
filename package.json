@@ -1,4 +1,13 @@
 {
   "name": "saol",
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.2.2",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "electron": "^31.2.1",
+    "typescript": "^5.5.3"
+  }
 }
